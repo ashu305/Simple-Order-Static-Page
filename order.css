@@ -1,0 +1,148 @@
+body{
+    background: hsl(225, 100%, 94%);
+    font-family: sans-serif;
+}
+
+#background-img{
+    position:  absolute;
+    width: 100%;
+    margin: -8px;
+}
+
+#orderCard{
+    background-color: white;
+    width: 350px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 10px 10px rgba(128, 128, 128, 0.123);
+    border-radius: 5%; 
+    overflow: hidden;
+}
+
+#Illustration-img{
+    position: relative;
+    width: 350px;
+    
+    border: none;
+}
+
+.My-Text{
+    text-align: center;
+}
+.My-Text h3{
+    margin-bottom: -3px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-style:normal;
+}
+
+.My-Text p{
+    position: relative;
+    width: 300px;
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgb(158, 158, 158);
+}
+
+.plans-card{
+    position: relative;
+    background: hsla(240, 2%, 90%, 0.253);
+    width: 300px;
+    height: 70px;
+    border-radius: 20px;
+    text-align:  center;
+    box-shadow:  5px 10px 10px rgba(128, 128, 128, 0.158);
+    margin: auto;
+    margin-top: 30px;
+}
+
+.plans-card img{
+    float: left;
+    padding: 10px;
+}
+
+.Text{
+    margin-left: -120px;
+    float: left;
+    padding: 10px;
+    margin-top: -20px;
+    width: 100px;
+}
+#txt1{
+    font-size: 18px;
+    
+    font-style: bold;
+    color: black;
+    margin-bottom: -40px;
+}
+
+#txt2{
+    left: -14px;
+    font-size: 13px;
+    color: rgb(121, 121, 121);
+}
+
+#change-plan{
+    float: right;
+    padding: 16px;
+    margin-top: 10px;
+    color: blue;
+    
+}
+
+#change-plan a:hover{
+    text-decoration: none;
+    color: purple;
+    width: 50px;
+}
+
+#pay{
+    position: relative;
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px auto;
+    border: none;
+    box-shadow: 2px 3px 30px rgba(0, 0, 255, 0.39);
+    background-color: blue;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#cancel{
+    position: relative;
+    border: transparent;
+    text-align: center;
+    border: none;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+}
+
+#pay:hover{
+    background-color: rgba(110, 39, 241, 0.829);
+}
+
+#cancel:hover{
+    color: black;
+}
+
+
+@media screen and (max-device-width: 400px) {
+
+    #background-img{
+        background-image: url("Images/pattern-background-mobile.svg");
+        width: 100%;
+    }
+
+    #orderCard{
+        margin: auto;
+        width: 335px;
+        align-items: center;
+    }
+}
