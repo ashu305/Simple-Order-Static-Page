@@ -30,7 +30,6 @@ Here is the result!
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: (https://ashu305.github.io/Simple-Order-Static-Page/)
 
 ## My process
